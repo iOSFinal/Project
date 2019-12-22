@@ -12,6 +12,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface HomePageViewController : UIViewController
 
+@property(nonatomic,strong)NSMutableDictionary *cellHeight;
+@property(nonatomic,strong)UITextField *commentTextField;
+@property(nonatomic,strong)UIView *comment_window,*recordCommentPo;
+@property(nonatomic)CGPoint *commentcenter;
+@property(nonatomic,strong)UIButton *commentButton;
+
+
 @end
 
 NS_ASSUME_NONNULL_END
